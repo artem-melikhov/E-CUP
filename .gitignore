@@ -1,0 +1,22 @@
+# Данные соревнования (большие, скачиваются отдельно)
+*.parquet
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Модельные веса и артефакты инференса
+models/*.bin
+models/*.safetensors
+*.onnx
+submit.csv
