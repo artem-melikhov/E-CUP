@@ -16,7 +16,12 @@ venv/
 .DS_Store
 
 # Модельные веса и артефакты инференса
-models/*.bin
-models/*.safetensors
+models/
+*.joblib
 *.onnx
 submit.csv
+.pytest_cache/
+
+# Собранные сабмиты и официальный архив с весами MiniLM (~1GB)
+matching-lgbm-v2.zip
+exmples_of_solution/matching-baseline-submit.zip
